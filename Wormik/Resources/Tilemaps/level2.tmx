@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="20" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="level2" tilewidth="16" tileheight="16">
+  <image source="level2.png" width="64" height="80"/>
+ </tileset>
+ <tileset firstgid="21" name="meta16" tilewidth="16" tileheight="16">
+  <image source="meta16.png" width="16" height="16"/>
+  <tile id="0">
+   <properties>
+    <property name="Path" value="True"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Tile Layer 1" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztlNEOwjAIRUnUmM1NnfP/v9U2GfF6vHV70hdJyBhQKBdoxJ++RafCh8KD0ZHT59iw04+x94X7Ra76ufBF7FV3Kzwu8lnkSnfxIalfxtZ/lQMy70C7w2NYaulMbP2eTawr6qm0Q94JdSgWyq28rCFx62Jbz10c9mNL3gvizsZPez4Z+xSvuG3JG0bHfmrPk3ujS9zW8pL1vuxnyD/nb94QR/O6fYh4Yt/CTXu5E1vObEjdOhetenMnSMybMXvjo3NY7+3mRe83xvuMOdwY2/loXHdfjcE3i8R5afWIOGhe7qJi0aqZNbke8Tzfvk877ij9dU/YI553OVKeYEt8+HZxNomlmzO3x5W4K8SX+qs5u8Z5Rt/6X9ADVkwKSQ==
+  </data>
+ </layer>
+ <objectgroup name="Objects" width="30" height="20">
+  <object name="SpawnPoint" x="8" y="248"/>
+  <object name="ExitPoint" x="472" y="72"/>
+ </objectgroup>
+ <layer name="Path" width="30" height="20">
+  <data encoding="base64" compression="zlib">
+   eJztUkkOgDAI5BP+/6tezThba9KTJI1NgVmQmT9OxfU47A1Pyqu6mTfHFHl3Z17U94sG5zHxOq6mluXUXBssxGhwW33N7FZwGU7LO+TN7aWbh8Nh9e3/Sd4SDt4xVvpZTuEwfZjH/qR7Z1+SljRTxcG43O6oWKlRfWlnkqc2h1qavVA+0iwVR8Pb+NjlTbNjdap2dddOxg2YwRSD
+  </data>
+ </layer>
+</map>

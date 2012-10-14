@@ -2,8 +2,8 @@
 //  main.m
 //  Wormik
 //
-//  Created by User on 19.12.11.
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Created by Oleksii Kozlov on 19.12.11.
+//  Copyright 2011 Oleksii Kozlov. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

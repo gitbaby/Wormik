@@ -2,16 +2,16 @@
 //  AppDelegate.m
 //  Wormik
 //
-//  Created by User on 19.12.11.
-//  Copyright __MyCompanyName__ 2011. All rights reserved.
+//  Created by Oleksii Kozlov on 19.12.11.
+//  Copyright 2012 Oleksii Kozlov. All rights reserved.
 //
 
 #import "cocos2d.h"
 
 #import "AppDelegate.h"
 #import "GameConfig.h"
-#import "HelloWorldLayer.h"
 #import "RootViewController.h"
+#import "SceneManager.h"
 
 @implementation AppDelegate
 
@@ -108,9 +108,9 @@
 	
 	// Removes the startup flicker
 	[self removeStartupFlicker];
-	
+
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [HelloWorldLayer scene]];
+	[[SceneManager sharedSceneManager] loadFirstScene];
 }
 
 
@@ -136,13 +136,9 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
 	CCDirector *director = [CCDirector sharedDirector];
-	
 	[[director openGLView] removeFromSuperview];
-	
 	[viewController release];
-	
 	[window release];
-	
 	[director end];	
 }
 
